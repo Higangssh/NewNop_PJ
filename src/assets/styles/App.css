@@ -1,0 +1,102 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 200px; /* 카드 크기를 작게 조정 */
+  max-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.card-img-top {
+  border-radius: 90%;
+  width: 100%;
+  height: auto; 
+  object-fit: contain; 
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.0rem;
+  font-weight: 700;
+  color: #007bff;
+  text-transform: capitalize;
+}
+
+.card-text {
+  margin: 1px;
+  font-size: 0.6rem;
+  color: #333;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 검색창과 버튼들을 세로로 정렬 */
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 500px; /* 검색창의 최대 너비를 설정 */
+  margin-right: 20px; /* 검색창과 버튼 사이의 간격을 설정 */
+}
+
+.search-bar input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%; /* 검색창의 너비를 100%로 설정 */
+  border: 1px solid #ddd;
+}
+
+.search-bar-buttons {
+  display: flex;
+  flex-direction: column; /* 버튼들을 세로로 배치 */
+  gap: 10px; /* 버튼들 사이의 간격을 10px로 설정 */
+}
+
+.search-bar-buttons button {
+  padding: 10px 15px;
+  width: 150px; /* 버튼의 너비를 설정 */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination .page-link {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0 5px;
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+  border-radius: 50%;
+}
